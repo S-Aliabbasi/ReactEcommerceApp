@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { categories } from "../component/data";
+import { categories } from "../component/data.js";
 import CategoryItem from "../component/CategoryItem";
 
 const Container = styled.div`
@@ -11,9 +11,8 @@ const Container = styled.div`
 const Categories = () => {
   return (
     <Container>
-      hello
       {categories.map((item) => (
-        <CategoryItem item={item} />
+        <CategoryItem item={item} key={item.id} />
       ))}
     </Container>
   );

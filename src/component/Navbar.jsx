@@ -7,7 +7,7 @@ import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
 const Container = styled.div`
   height: 120px;
   padding: 10px 10px;
-  background-color: #bb917b;
+  background-color: #2f4f4f;
 `;
 
 const Wrapper = styled.div`
